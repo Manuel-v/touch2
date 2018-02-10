@@ -3,7 +3,7 @@ Mongoose native SPI driver for STMP610E
 
 ## Introduction
 Pruebas para crear un nuevo controlador 
-
+vers 1.25
 STMPE610 is a chip that drives a resistive touchscreen. It measures pressure on
 a glass plate which has an X and Y resistor samples the pressure put on the
 screen (typically by pressing it).
