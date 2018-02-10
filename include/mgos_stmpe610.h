@@ -142,7 +142,8 @@ struct mgos_stmpe610_event_data {
   uint8_t length; // Amount of time the TOUCH_DOWN event lasted (always set to 1 for TOUCH_UP)
 };
 
-bool mgos_stmpe610_init(void);
+//bool mgos_stmpe610_init(void);
+bool mgos_touch2_init(void);
 
 typedef void (*mgos_stmpe610_event_t)(struct mgos_stmpe610_event_data *);
 void mgos_stmpe610_set_handler(mgos_stmpe610_event_t handler);
